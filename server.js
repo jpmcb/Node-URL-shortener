@@ -28,5 +28,5 @@ http.createServer(function(req, res) {
 
 MongoClient.connect(url, function(err, db) {
     assert.equal(null, err);
-    console.log("connected successfully to server");
+    console.log("Connected successfully to server");
 });

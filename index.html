@@ -1,11 +1,27 @@
 <!doctype html>
 <html>
     <head>
-        
+    
+    
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Lato');
+
+    body {
+        font-family: 'Lato', sans-serif;
+    }
+    #header {
+        display: block;
+        text-align: center;
+    }
+    </style>
+    
     </head>
     
     <body>
-        <h1>URL Shortener Microservice</h1>
+        <div class='center'>
+            <h1 id='header'>URL Shortener Microservice</h1>
+        </div>
+        
         <p>Usage:</p>
         <code>https://...herokuapp.com/new/https://www.google.com</code>
         <br>
@@ -14,6 +30,8 @@
         <code>{ given: "https://www.google.com", short-url: "https://...herokuapp.com/12345" }</code>
         <br>
         
-        
+        <footer>
+            <p>Created<a href='https://github.com/jpmcb' target='_blank'>by jpmcb</a></p>
+        </footer>
     </body>
 </html>
